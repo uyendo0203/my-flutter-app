@@ -266,7 +266,7 @@ class WorkCard extends StatelessWidget {
           ),
           const SizedBox(width: 4),
           Text(
-            'Tạo: ${_formatDate(work.createdAt)}',
+            'Ngày Tạo: ${_formatDate(work.createdAt)}',
             style: TextStyle(
               fontSize: 12,
               color: Colors.grey.shade600,

@@ -58,11 +58,10 @@ class _WorkListScreenState extends State<WorkListScreen> {
           Expanded(child: _buildWorkList()),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
+      floatingActionButton: FloatingActionButton(
         heroTag: "work_add_button",
         onPressed: _navigateToWorkForm,
-        icon: const Icon(Icons.add),
-        label: const Text('Thêm công việc'),
+        child: const Icon(Icons.add),
       ),
     );
   }

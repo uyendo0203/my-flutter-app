@@ -329,7 +329,7 @@ class _WorkFormScreenState extends State<WorkFormScreen> {
             child: CircularProgressIndicator(strokeWidth: 2),
           )
         : Text(
-            _isEditing ? 'Cập nhật Công việc' : 'Thêm Công việc',
+            _isEditing ? 'Cập nhật' : 'Thêm',
             style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
           ),
     );
